@@ -1,4 +1,4 @@
-# Olá, eu sou <del>Goku</del> Bruno! 👋
+# Oi, eu sou <del>Goku</del> Bruno! 👋
 
 ## 🚀 Gerente de Engenharia de Dados & IA | Especialista em Engenharia de Software
 
