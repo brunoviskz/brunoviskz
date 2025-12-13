@@ -62,18 +62,8 @@ Não é apenas código, é sobre entender o negócio. Possuo conhecimento profun
 
 ---
 
-### 🏆 Conquistas & Atividade do Git
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=brunoviskz&theme=dracula&hide_border=true" alt="GitHub Streak" />
-  </br>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=brunoviskz&show_icons=true&theme=dracula"/>
-</div>
-
----
-
 <!-- MATRIX-START -->
-### 🟩 A Matrix em números (Ref. 13/12/2025)
+### 🟩 A Matrix (Ref. 13/12/2025)
 
 > Soma dos repositórios: **6.820.444 linhas**
 
@@ -96,6 +86,22 @@ Não é apenas código, é sobre entender o negócio. Possuo conhecimento profun
   <em>A Matrix está carregando…</em>
 </div>
 <!-- MATRIX-END -->
+
+---
+
+### 📡 Sinais da Matrix
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=brunoviskz&theme=dracula&hide_border=true" alt="GitHub Streak" />
+  <!-- COMENTADO POIS SÓ EXIBE COMMITS PÚBLICOS
+  </br>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=brunoviskz&show_icons=true&theme=dracula"/>
+  -->
+</div>
+
+<p align="center">
+  <img src="assets/metrics.svg" alt="Sinais da Matrix">
+</p>
 
 ---
 
