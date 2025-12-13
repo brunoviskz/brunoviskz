@@ -75,19 +75,24 @@ Não é apenas código, é sobre entender o negócio. Possuo conhecimento profun
 <!-- MATRIX-START -->
 ### A Matrix em números (Ref. 13/12/2025)
 
-> Soma dos repositórios: **6.820.423 linhas**
+> Soma dos repositórios: **6.820.427 linhas**
 
-### Linhas por repositório:
+#### Linhas por repositório:
 
 - `spsp-plus`: 4.770.688 linhas
+
   └── Últimos 10 dias: 4.722 adicionadas, 2.068 removidas
 - `spsp-site`: 1.894.496 linhas
+
   └── Últimos 10 dias: 0 adicionadas, 0 removidas
-- `hybrid-codebase`: 103.629 linhas
+- `hybrid-codebase`: 103.633 linhas
+
   └── Últimos 10 dias: 2.638 adicionadas, 1.136 removidas
 - `spsp-protheus`: 35.385 linhas
+
   └── Últimos 10 dias: 3.411 adicionadas, 2.576 removidas
 - `spsp-plus-app`: 16.225 linhas
+
   └── Últimos 10 dias: 0 adicionadas, 0 removidas
 
 <div align="center">
