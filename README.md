@@ -2,9 +2,11 @@
 
 ## 🚀 Gerente de Engenharia de Dados & IA | Especialista em Engenharia de Software
 
-Com **15 anos de expertise**, atuo como o elo entre sistemas e pessoas através do meu modelo **NES** (Necessidade, Expansão e Solução). Minha jornada técnica começou no design, passou pela análise de implantação e consultoria ERP, até chegar à liderança estratégica de tecnologia.
+* Iniciei como **designer**, desenvolvendo resoluções criativas para impasses complexos. Evoluí para **analista de implantações**, aprimorando a capacidade de traduzir necessidades operacionais em soluções técnicas; e, como **consultor Protheus**, aprofundei-me em sistemas ERP, integrando processos de negócio à tecnologia.
+* A transição para o **desenvolvimento de software** consolidou uma visão tática end-to-end, permitindo liderar projetos orientados a eficiência, escalabilidade e sustentabilidade técnica.
+* Sou desenvolvedor sênior em ADVPL e TL++, pleno em Python e júnior em React, com forte atuação na orquestração de Inteligências Artificiais aplicadas a desenvolvimento, automação e vibe coding, o que me permite transitar com fluidez entre linguagens, arquiteturas e paradigmas.
 
-Atualmente, reporto ao CEO da SPSP (>8k colaboradores), liderando a transformação digital através da convergência entre **Engenharia de Dados**, **Inteligência Artificial** e **Estratégia de Negócios**.
+> Atualmente, reporto ao CEO da SPSP (>8 mil colaboradores), liderando a transformação digital por meio da convergência entre **Engenharia de Dados**, **Inteligência Artificial** e **Estratégia de Negócios**.
 
 ---
 
@@ -64,11 +66,7 @@ Não é apenas código, é sobre entender o negócio. Possuo conhecimento profun
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=brunoviskz&theme=dracula&hide_border=true" alt="GitHub Streak" />
-</div>
-
-<br>
-
-<div align="center">
+  </br>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=brunoviskz&show_icons=true&theme=dracula"/>
 </div>
 
@@ -81,5 +79,5 @@ Não é apenas código, é sobre entender o negócio. Possuo conhecimento profun
 </div>
 
 <div align="center">
-  <i>"Sou o elo entre sistemas e pessoas." #VibeCoding</i>
+  <i>"Sou o elo entre sistemas e pessoas" #VibeCoding</i>
 </div>
