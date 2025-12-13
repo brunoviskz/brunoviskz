@@ -72,6 +72,32 @@ Não é apenas código, é sobre entender o negócio. Possuo conhecimento profun
 
 ---
 
+<!-- MATRIX-START -->
+### A Matrix em números (Ref. 13/12/2025)
+
+> Soma dos repositórios: **6.820.423 linhas**
+
+## Linhas por repositório:
+
+- `spsp-plus`: 4.770.688 linhas
+  _Últimos 10 dias: 4.722 adicionadas, 2.068 removidas
+- `spsp-site`: 1.894.496 linhas
+  _Últimos 10 dias: 0 adicionadas, 0 removidas
+- `hybrid-codebase`: 103.629 linhas
+  _Últimos 10 dias: 2.638 adicionadas, 1.136 removidas
+- `spsp-protheus`: 35.385 linhas
+  _Últimos 10 dias: 3.411 adicionadas, 2.576 removidas
+- `spsp-plus-app`: 16.225 linhas
+  _Últimos 10 dias: 0 adicionadas, 0 removidas
+
+<div align="center">
+  <img src="assets/hybrid-hologram-480.gif" alt="Hybrid Hologram" width="480"><br>
+  <em>A Matrix está carregando…</em>
+</div>
+<!-- MATRIX-END -->
+
+---
+
 <div align="center">
   <a href="https://www.linkedin.com/in/comin" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
@@ -79,5 +105,5 @@ Não é apenas código, é sobre entender o negócio. Possuo conhecimento profun
 </div>
 
 <div align="center">
-  <i>"Sou o elo entre sistemas e pessoas" #VibeCoding</i>
+  <i>"Sou o elo entre sistemas e pessoas"</i>
 </div>
