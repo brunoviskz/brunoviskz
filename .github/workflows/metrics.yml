@@ -39,9 +39,9 @@ jobs:
           # Linhas de commit
           plugin_lines: yes
           plugin_lines_sections: base
-          plugin_lines_repositories_limit: 5
+          plugin_lines_repositories_limit: 10
           plugin_lines_history_limit: 1
-          plugin_lines_delay: 30
+          plugin_lines_delay: 25
 
           # Google PageSpeed (DESATIVADO POR ENQUANTO)
           # plugin_pagespeed: yes
