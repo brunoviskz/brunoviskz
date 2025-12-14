@@ -86,10 +86,10 @@
   💼 Domínio de Negócio (ERP Protheus)
 </h3>
 
-<p title="Deep functional knowledge across purchasing, accounting, inventory, billing, finance, tax, HR, retail, occupational health & compliance (TAF)">
+<p title="It's not just about code, it's about understanding the business">
   Não é apenas código, é sobre entender o negócio. Possuo conhecimento profundo nos módulos:
 </p>
-<code>Compras</code> <code>Contábil</code> <code>Estoque</code> <code>Faturamento</code> <code>Financeiro</code> <code>Fiscal</code> <code>Gestão de Pessoas</code> <code>Loja</code> <code>Medicina e Segurança</code> <code>TAF</code>
+<code title="Purchasing">Compras</code> <code title="Accounting">Contábil</code> <code title="Inventory">Estoque</code> <code title="Billing">Faturamento</code> <code title="Finance">Financeiro</code> <code title="Tax">Fiscal</code> <code title="HR">Gestão de Pessoas</code> <code title="Retail">Loja</code> <code title="Occupational health">Medicina e Segurança</code> <code title="Compliance (TAF)">TAF</code>
 
 ---
 
@@ -176,5 +176,5 @@
 </div>
 
 <div align="center">
-  <i>"Sou o elo entre sistemas e pessoas"</i>
+  <i title="I am the link between systems and people">"Sou o elo entre sistemas e pessoas"</i>
 </div>
