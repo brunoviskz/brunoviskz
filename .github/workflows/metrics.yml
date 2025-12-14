@@ -19,10 +19,14 @@ jobs:
         with:
           # Saída
           filename: assets/metrics.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
 
           # Base
           base: activity, repositories
+
+          plugin_repositories: yes
+          plugin_repositories_affiliations: owner, collaborator, organization
+          plugin_repositories_batch: 100
 
           # ─────────────────────────────────────────
           # Coding habits + Recent activity
