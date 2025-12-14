@@ -5,6 +5,12 @@ on:
     - cron: "0 6 * * *"   # Executa diariamente às 06:00 UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+  issues: read
+  pull-requests: read
+  actions: read
+
 jobs:
   metrics:
     runs-on: ubuntu-latest
