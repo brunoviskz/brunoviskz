@@ -122,9 +122,8 @@
 
 <!-- MATRIX-START -->
 <h3 title="Aggregated codebase size and recent evolution snapshot">
-  🟩 A Matrix 
+  🟩 A Matrix <small>(Ref. 14/12/2025)</small>
 </h3>
-<small>(Ref. 14/12/2025)</small>
 
 <blockquote title="Total lines">
   ∑ Soma dos repositórios: <strong>6.820.764 linhas</strong>
