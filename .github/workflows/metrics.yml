@@ -30,7 +30,6 @@ jobs:
           # Repositórios em destaque
           plugin_repositories: yes
           plugin_repositories_affiliations: owner, collaborator, organization
-          plugin_repositories_batch: 10
           plugin_repositories_featured: hybrid-codebase, spsp-plus, spsp-protheus
 
           # Isometric Commit Calendar (últimos seis meses)
@@ -41,6 +40,8 @@ jobs:
           plugin_lines: yes
           plugin_lines_sections: base
           plugin_lines_repositories_limit: 5
+          plugin_lines_history_limit: 1
+          plugin_lines_delay: 30
 
           # Google PageSpeed (DESATIVADO POR ENQUANTO)
           # plugin_pagespeed: yes
