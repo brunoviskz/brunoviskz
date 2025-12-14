@@ -55,6 +55,7 @@
 <h4 title="Core Technologies & Primary Expertise">
   <b>Core & Especialidade</b>
 </h4>
+
 ![ADVPL](https://img.shields.io/badge/ADVPL-TOTVS-blue?style=for-the-badge&logo=server)
 ![TL++](https://img.shields.io/badge/TL%2B%2B-Expert-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -63,6 +64,7 @@
 <h4 title="Application Development & Web Technologies">
   <b>Desenvolvimento & Web</b>
 </h4>
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -72,6 +74,7 @@
 <h4 title="Infrastructure, Data & Systems Integration">
   <b>Infra, Dados & Integração</b>
 </h4>
+
 ![Power Bi](https://img.shields.io/badge/Power_BI-black?style=for-the-badge&logo=powerbi&logoColor=F2C811)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=postman)
@@ -148,9 +151,9 @@
 </div>
 <!-- MATRIX-END -->
 
-<h2 title="Automated metrics generated and hosted via Heroku">
+<h4 title="Automated metrics generated and hosted via Heroku">
   📡 Sinais da Matrix via Heroku
-</h3>
+</h4>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=brunoviskz&theme=dracula&hide_border=true" alt="GitHub Streak" />
