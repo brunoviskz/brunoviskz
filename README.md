@@ -89,17 +89,13 @@ Não é apenas código, é sobre entender o negócio. Possuo conhecimento profun
 
 ---
 
-### 📡 Sinais da Matrix
+### 📡 Sinais da Matrix via Heroku
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=brunoviskz&theme=dracula&hide_border=true" alt="GitHub Streak" />
-  <!-- COMENTADO POIS SÓ EXIBE COMMITS PÚBLICOS
-  </br>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=brunoviskz&show_icons=true&theme=dracula"/>
-  -->
 </div>
 
-#### Olhando para os últimos 7 dias
+#### Olhando para metrics
 
 <p align="center">
   <img src="assets/metrics.svg" alt="Sinais da Matrix">

@@ -23,35 +23,31 @@ jobs:
 
           # Base
           base: repositories, activity
+          base_indepth: yes
+          repositories_batch: 10
+          commits_authoring: yes
 
+          # Repositórios em destaque
           plugin_repositories: yes
           plugin_repositories_affiliations: owner, collaborator, organization
-          plugin_repositories_batch: 100
+          plugin_repositories_batch: 10
           plugin_repositories_featured: hybrid-codebase, spsp-plus, spsp-protheus
 
-          # ─────────────────────────────────────────
-          # Isometric Commit Calendar (ano completo)
-          # ─────────────────────────────────────────
+          # Isometric Commit Calendar (últimos seis meses)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # ─────────────────────────────────────────
           # Linhas de commit
-          # ─────────────────────────────────────────
           plugin_lines: yes
           plugin_lines_sections: base
           plugin_lines_repositories_limit: 5
 
-          # ─────────────────────────────────────────
           # Google PageSpeed (DESATIVADO POR ENQUANTO)
-          # ─────────────────────────────────────────
           # plugin_pagespeed: yes
           # plugin_pagespeed_url: https://plus.spsp.com.br
           # plugin_pagespeed_screenshot: yes
 
-          # ─────────────────────────────────────────
           # AniList (DESATIVADO POR ENQUANTO)
-          # ─────────────────────────────────────────
           # plugin_anilist: yes
           # plugin_anilist_user: SEU_USUARIO_ANILIST
           # plugin_anilist_sections: watching, reading
