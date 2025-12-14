@@ -130,18 +130,18 @@
 </blockquote>
 
 <h4 title="Lines added and removed across repositories in the last 10 days">
-  Linhas nos últimos 10 dias
+  📝 Linhas nos últimos 10 dias
 </h4>
 
-- `spsp-plus`: Δ10d **+2.491** linhas (∑ **4.770.688**)  
+- `spsp-plus`: Δ **+2.491** linhas (∑ **4.770.688**)  
   └── + 4.188 | - 1.697
-- `spsp-site`: Δ10d **+0** linhas (∑ **1.894.496**)  
+- `spsp-site`: Δ **+0** linhas (∑ **1.894.496**)  
   └── + 0 | - 0
-- `hybrid-codebase`: Δ10d **+2.055** linhas (∑ **103.970**)  
-  └── + 3.230 | - 1.175
-- `spsp-protheus`: Δ10d **+706** linhas (∑ **35.385**)  
+- `hybrid-codebase`: Δ **+2.065** linhas (∑ **103.970**)  
+  └── + 3.249 | - 1.184
+- `spsp-protheus`: Δ **+706** linhas (∑ **35.385**)  
   └── + 3.267 | - 2.561
-- `spsp-plus-app`: Δ10d **+0** linhas (∑ **16.225**)  
+- `spsp-plus-app`: Δ **+0** linhas (∑ **16.225**)  
   └── + 0 | - 0
 
 
