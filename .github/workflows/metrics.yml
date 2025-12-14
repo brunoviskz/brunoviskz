@@ -28,8 +28,8 @@ jobs:
           # Coding habits + Recent activity
           # ─────────────────────────────────────────
           plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 30
+          plugin_habits_from: 90
+          plugin_habits_days: 10
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
@@ -50,11 +50,11 @@ jobs:
           plugin_languages_ignored: html, css
 
           # ─────────────────────────────────────────
-          # Google PageSpeed
+          # Google PageSpeed (DESATIVADO POR ENQUANTO)
           # ─────────────────────────────────────────
-          plugin_pagespeed: yes
-          plugin_pagespeed_url: https://plus.spsp.com.br
-          plugin_pagespeed_screenshot: yes
+          # plugin_pagespeed: yes
+          # plugin_pagespeed_url: https://plus.spsp.com.br
+          # plugin_pagespeed_screenshot: yes
 
           # ─────────────────────────────────────────
           # AniList (DESATIVADO POR ENQUANTO)
