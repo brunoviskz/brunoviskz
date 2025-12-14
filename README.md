@@ -99,6 +99,8 @@ Não é apenas código, é sobre entender o negócio. Possuo conhecimento profun
   -->
 </div>
 
+#### Olhando para os últimos 7 dias
+
 <p align="center">
   <img src="assets/metrics.svg" alt="Sinais da Matrix">
 </p>
