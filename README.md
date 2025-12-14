@@ -89,7 +89,7 @@
 <p title="Deep functional knowledge across purchasing, accounting, inventory, billing, finance, tax, HR, retail, occupational health & compliance (TAF)">
   Não é apenas código, é sobre entender o negócio. Possuo conhecimento profundo nos módulos:
 </p>
-`Compras` `Contábil` `Estoque` `Faturamento` `Financeiro` `Fiscal` `Gestão de Pessoas` `Loja` `Medicina e Segurança` `TAF`
+<code>Compras</code> <code>Contábil</code> <code>Estoque</code> <code>Faturamento</code> <code>Financeiro</code> <code>Fiscal</code> <code>Gestão de Pessoas</code> <code>Loja</code> <code>Medicina e Segurança</code> <code>TAF</code>
 
 ---
 
