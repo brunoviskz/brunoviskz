@@ -1,0 +1,103 @@
+name: 🟩 Atualizar Matrix
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # Diário às 07:00 UTC (04:00 BRT) — janela de início
+  workflow_dispatch: # permite rodar manualmente
+
+permissions:
+  contents: write
+
+jobs:
+  update-matrix:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout de todos os repositórios ──────────────────────────
+      - name: Checkout brunoviskz (README)
+        uses: actions/checkout@v4
+        with:
+          path: brunoviskz
+
+      - name: Checkout hybrid-codebase
+        uses: actions/checkout@v4
+        with:
+          repository: brunoviskz/hybrid-codebase
+          path: hybrid-codebase
+          token: ${{ secrets.METRICS_TOKEN }}
+          fetch-depth: 0
+
+      - name: Checkout spsp-plus
+        uses: actions/checkout@v4
+        with:
+          repository: plusspsp/plus
+          path: spsp-plus
+          token: ${{ secrets.METRICS_TOKEN }}
+          fetch-depth: 0
+
+      - name: Checkout spsp-plus-app
+        uses: actions/checkout@v4
+        with:
+          repository: brunoviskz/spsp-plus-app
+          path: spsp-plus-app
+          token: ${{ secrets.METRICS_TOKEN }}
+          fetch-depth: 0
+
+      - name: Checkout spsp-protheus
+        uses: actions/checkout@v4
+        with:
+          repository: brunoviskz/spsp-protheus
+          path: spsp-protheus
+          token: ${{ secrets.METRICS_TOKEN }}
+          fetch-depth: 0
+
+      - name: Checkout spsp-site
+        uses: actions/checkout@v4
+        with:
+          repository: SPSP-Desenvolvimento/SITE
+          path: spsp-site
+          token: ${{ secrets.METRICS_TOKEN }}
+          fetch-depth: 0
+
+      # ── 2. Delay aleatório (0-4h → execução entre 04:00 e 08:00 BRT) ──
+      - name: Sleep aleatório
+        if: github.event_name == 'schedule'
+        run: |
+          DELAY=$((RANDOM % 7200))
+          echo "Aguardando $((DELAY / 60)) minutos antes de executar..."
+          sleep $DELAY
+
+      # ── 3. Setup Python ───────────────────────────────────────────────
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ── 4. Rodar conta_linhas ─────────────────────────────────────────
+      - name: Contar linhas e atualizar README
+        run: |
+          python hybrid-codebase/hybrid-lib/src/hybrid_tooling/conta_linhas.py \
+            --repos \
+              hybrid-codebase \
+              spsp-plus \
+              spsp-plus-app \
+              spsp-protheus \
+              spsp-site \
+            --changes \
+            --since "10 days ago" \
+            --update-readme \
+            --readme brunoviskz/README.md
+
+      # ── 5. Commit & Push ──────────────────────────────────────────────
+      - name: Commit e push
+        working-directory: brunoviskz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "README sem alterações, nada para commitar."
+          else
+            git commit -m "🟩 Matrix atualizada (auto)"
+            git push
+          fi
