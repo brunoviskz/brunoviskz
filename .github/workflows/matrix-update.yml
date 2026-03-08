@@ -24,7 +24,7 @@ jobs:
         with:
           repository: brunoviskz/hybrid-codebase
           path: hybrid-codebase
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.MATRIX_TOKEN }}
           fetch-depth: 0
 
       - name: Checkout spsp-plus
@@ -32,7 +32,7 @@ jobs:
         with:
           repository: plusspsp/plus
           path: spsp-plus
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.MATRIX_TOKEN }}
           fetch-depth: 0
 
       - name: Checkout spsp-plus-app
@@ -40,7 +40,7 @@ jobs:
         with:
           repository: brunoviskz/spsp-plus-app
           path: spsp-plus-app
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.MATRIX_TOKEN }}
           fetch-depth: 0
 
       - name: Checkout spsp-protheus
@@ -48,7 +48,7 @@ jobs:
         with:
           repository: brunoviskz/spsp-protheus
           path: spsp-protheus
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.MATRIX_TOKEN }}
           fetch-depth: 0
 
       - name: Checkout spsp-site
@@ -56,7 +56,7 @@ jobs:
         with:
           repository: SPSP-Desenvolvimento/SITE
           path: spsp-site
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.MATRIX_TOKEN }}
           fetch-depth: 0
 
       # ── 2. Delay aleatório (0-4h → execução entre 04:00 e 08:00 BRT) ──
