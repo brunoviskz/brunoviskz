@@ -30,7 +30,7 @@ jobs:
       - name: Checkout spsp-plus
         uses: actions/checkout@v4
         with:
-          repository: plusspsp/plus
+          repository: brunoviskz/spsp-plus
           path: spsp-plus
           token: ${{ secrets.MATRIX_TOKEN }}
           fetch-depth: 0
