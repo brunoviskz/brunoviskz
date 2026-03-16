@@ -98,6 +98,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "README sem alterações, nada para commitar."
           else
-            git commit -m "🟩 Matrix atualizada (auto)"
+            git commit -m "docs: atualizada a quantidade de linhas da Matrix em $(date +'%d/%m/%Y')"
             git push
           fi
