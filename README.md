@@ -122,7 +122,7 @@
 
 <!-- MATRIX-START -->
 <h3 title="Aggregated codebase size and recent evolution snapshot">
-  🟩 A Matrix <small>(Ref. 01/05/2026)</small>
+  🟩 A Matrix <small>(Ref. 02/05/2026)</small>
 </h3>
 
 <blockquote title="Total lines">
