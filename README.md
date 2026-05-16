@@ -122,25 +122,25 @@
 
 <!-- MATRIX-START -->
 <h3 title="Aggregated codebase size and recent evolution snapshot">
-  🟩 A Matrix <small>(Ref. 15/05/2026)</small>
+  🟩 A Matrix <small>(Ref. 16/05/2026)</small>
 </h3>
 
 <blockquote title="Total lines">
-  ∑ Soma dos repositórios: <strong>6.948.124 linhas</strong>
+  ∑ Soma dos repositórios: <strong>6.948.141 linhas</strong>
 </blockquote>
 
 <h4 title="Lines added and removed across repositories in the last 10 days">
   📝 Linhas nos últimos 10 dias
 </h4>
 
-- `spsp-plus`: Δ **+4.477** linhas (∑ **4.871.422**)  
-  └── + 10.630 | - 6.153
+- `spsp-plus`: Δ **+1.061** linhas (∑ **4.871.439**)  
+  └── + 3.359 | - 2.298
 - `spsp-site`: Δ **+0** linhas (∑ **1.894.425**)  
   └── + 0 | - 0
-- `hybrid-codebase`: Δ **+473** linhas (∑ **127.481**)  
-  └── + 1.951 | - 1.478
-- `spsp-protheus`: Δ **+2.693** linhas (∑ **38.571**)  
-  └── + 3.357 | - 664
+- `hybrid-codebase`: Δ **+0** linhas (∑ **127.481**)  
+  └── + 47 | - 47
+- `spsp-protheus`: Δ **+2.672** linhas (∑ **38.571**)  
+  └── + 3.322 | - 650
 - `spsp-plus-app`: Δ **+0** linhas (∑ **16.225**)  
   └── + 0 | - 0
 
