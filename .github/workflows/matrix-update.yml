@@ -2,7 +2,7 @@ name: 🟩 Atualizar Matrix
 
 on:
   schedule:
-    - cron: "0 9 * * *" # Diário às 07:00 UTC (04:00 BRT) — janela de início
+    - cron: "37 7 * * *" # Diário às 07:37 UTC (04:37 BRT) — janela de início
   workflow_dispatch: # permite rodar manualmente
 
 permissions:
@@ -59,11 +59,11 @@ jobs:
           token: ${{ secrets.MATRIX_TOKEN }}
           fetch-depth: 0
 
-      # ── 2. Delay aleatório (0-4h → execução entre 04:00 e 08:00 BRT) ──
+      # ── 2. Delay aleatório (0-13min → execução entre 04:37 e 04:50 BRT) ──
       - name: Sleep aleatório
         if: github.event_name == 'schedule'
         run: |
-          DELAY=$((RANDOM % 7200))
+          DELAY=$((RANDOM % 780))
           echo "Aguardando $((DELAY / 60)) minutos antes de executar..."
           sleep $DELAY
 

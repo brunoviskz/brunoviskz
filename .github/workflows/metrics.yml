@@ -2,7 +2,7 @@ name: 📡 Sinais da Matrix
 
 on:
   schedule:
-    - cron: "0 8 * * *"   # Executa diariamente às 08:00 UTC
+    - cron: "37 8 * * *"   # Executa diariamente às 08:37 UTC (05:37 BRT)
   workflow_dispatch:
 
 permissions:
