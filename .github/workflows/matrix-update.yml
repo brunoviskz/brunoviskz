@@ -76,7 +76,7 @@ jobs:
       # ── 4. Rodar conta_linhas ─────────────────────────────────────────
       - name: Contar linhas e atualizar README
         run: |
-          python hybrid-codebase/hybrid-lib/src/hybrid_tooling/conta_linhas.py \
+          python hybrid-codebase/hybrid-lib/src/hybrid_tooling/developer/conta_linhas.py \
             --repos \
               hybrid-codebase \
               spsp-plus \
